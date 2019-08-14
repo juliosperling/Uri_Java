@@ -5,8 +5,11 @@ public class Main {
 	public static void main(String[] args) {
 	 Scanner sc = new Scanner(System.in);
 	 
-	 Double cod_peca1 = sc.nextDouble(), num_peca1 = sc.nextDouble(), val_peca1 = sc.nextDouble();
-	 Double cod_peca2 = sc.nextDouble(), num_peca2 = sc.nextDouble(), val_peca2 = sc.nextDouble();
+	 int cod_peca1 = sc.nextInt(), num_peca1 = sc.nextInt();
+	 Double val_peca1 = sc.nextDouble();
+	 
+	 int cod_peca2 = sc.nextInt(), num_peca2 = sc.nextInt();
+	 Double val_peca2 = sc.nextDouble();
 	 
 	 Double valor_1 = (num_peca1 * val_peca1);
 	 Double valor_2 = (num_peca2 * val_peca2);
