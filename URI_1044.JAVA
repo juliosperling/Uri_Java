@@ -9,10 +9,10 @@ public class Main {
 		int B = sc.nextInt();
 		
 		if (A % B == 0 || B % A == 0) {
-			System.out.println("São Multiplos");
+			System.out.println("Sao Multiplos");
 		}
 		else {
-			System.out.println("Nao sao M6ultiplos");
+			System.out.println("Nao sao Multiplos");
 		}
 
 		sc.close();
